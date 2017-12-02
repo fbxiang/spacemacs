@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+#name : test
+#key : test_
+# --
+import React from 'react';
+import $2 from '$1';
+
+import renderer from 'react-test-renderer';
+
+describe('$2', () => {
+  it('snapshot', () => {
+    const wrapper = renderer.create(
+      <$2 $3/>
+    );
+    expect(wrapper.toJSON()).toMatchSnapshot();
+  });
+});

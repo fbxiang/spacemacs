@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: ml
+# key: ml_
+# --
+import numpy as np
+import matplotlib.pyplot as plt
+import sklearn
+from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.ensemble import ${1:RandomForestClassifier}
+$0

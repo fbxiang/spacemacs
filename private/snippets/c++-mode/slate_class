@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+#name : slate_class
+#key : slate_class
+#contributor : fx
+# --
+class ${1:SNewWidget} : public ${2:SWidget} 
+{
+public:
+  SLATE_BEGIN_ARGS($1) {}
+  SLATE_END_ARGS()
+  $0
+};

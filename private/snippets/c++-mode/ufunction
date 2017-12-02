@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : ufunction
+#key : ufunction
+#contributor : fx
+# --
+UFUNCTION(BlueprintCallable, Category = ${1:Category})

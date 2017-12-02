@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: pnij
+# key: pnij_
+# --
+p^{(${1:n})}_{${2:i},${3:j}}

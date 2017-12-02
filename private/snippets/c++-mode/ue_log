@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : ue_log
+#key : ue_log
+#contributor : Fanbo Xiang
+# --
+UE_LOG(Log${1:Temp}, ${2:Warning}, TEXT("$3")$4);

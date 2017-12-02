@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: latex_header
+# key: latex_header_
+# --
+#+LATEX_HEADER: ${1:\usepackage[${2:}]{$3}}$0

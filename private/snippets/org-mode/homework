@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: homework
+# key: homework_
+# --
+#+TITLE: $1 Homework$2
+#+AUTHOR: Fanbo Xiang, A53275243
+#+OPTIONS: toc:nil num:nil
+#+LATEX_HEADER: \usepackage[top=0.5in]{geometry}
+#+LATEX_HEADER: {\setlength{\parindent}{0cm}

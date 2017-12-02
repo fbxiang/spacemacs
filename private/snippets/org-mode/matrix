@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: matrix
+# key: matrix_
+# --
+#+attr_latex: :mode math :environment bmatrix :math-prefix $1 :math-suffix $2
+| $0 |

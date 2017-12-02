@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : uproperty
+#key : uproperty
+#contributor : fx
+# --
+UPROPERTY(${1:EditAnywhere}, ${2:BlueprintReadWrite}, Category = ${3:Category})

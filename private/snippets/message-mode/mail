@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: mail
+# key: Dear
+# --
+Dear ${1: Mr. $2},
+$0
+
+Best,
+Fanbo Xiang

@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+#name : react_component
+#key : react_component
+#contributor : Fanbo Xiang
+# --
+import * as React from 'react';
+
+export class ${1:ReactComponent} extends React.Component {
+
+  render() {
+    return ${2:<div></div>};
+  }
+}

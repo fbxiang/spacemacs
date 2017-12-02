@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : uclass
+#key : uclass
+#contributor : fx
+# --
+UCLASS(${1:Blueprintable}$2)

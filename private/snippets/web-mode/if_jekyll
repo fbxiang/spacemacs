@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+#name : if_jekyll
+#key : if_jekyll
+#contributor : fx
+# --
+{% if $1 %}
+$0
+{% endif %}

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: jekyll_image
+# key: jekyll_image_
+# --
+#+BEGIN_EXPORT html
+<img src="{{site.baseurl}}/assets/${1:image.png}" alt="$1"$2/>
+#+END_EXPORT
+$0

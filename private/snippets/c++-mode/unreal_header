@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+#name : unreal_header
+#key : unreal_header
+#contributor : fx
+# --
+#pragma once
+
+#include "CoreMinimal.h"
+#include "${1:$$(file-name-base (buffer-file-name))}.generated.h"
+
+UCLASS(Blueprintable)
+class ${2:U}$1 : public ${3:UObject} {
+  GENERATED_BODY()
+  public:
+  $0
+};
